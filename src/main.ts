@@ -13,7 +13,7 @@ bootstrapApplication(AppComponent, {
       domain: 'dev-2xlyhzwr7rpiwjnn.us.auth0.com',         // e.g., dev-abc123.us.auth0.com
       clientId: 'XglzcYWXZeYpmAtokfjlg2KNffgLc08h',
       authorizationParams: {
-        redirect_uri: window.location.origin,
+        redirect_uri: 'https://rmfaizal.github.io/okta-auth',
       },
     }),
   ],
